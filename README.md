@@ -1,4 +1,4 @@
-# 🎨 Drawing App
+# 🎨 DoodleNest
 
 A beautiful, interactive drawing app built with HTML, CSS, and JavaScript. Create sketches, doodles, or notes right in your browser with a modern, attractive UI.
 
