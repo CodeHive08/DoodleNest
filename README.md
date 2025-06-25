@@ -2,6 +2,16 @@
 
 A beautiful, interactive drawing app built with HTML, CSS, and JavaScript. Create sketches, doodles, or notes right in your browser with a modern, attractive UI.
 
+🌐 **Live Demo:** [https://doodlenest.netlify.app/](https://doodlenest.netlify.app/)
+
+---
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/2e7f99fb-1fe9-44a6-8889-030159a63ca2)
+
+
+---
 ## ✨ Features
 
 - **Modern UI**: Soft gradient background, glassy toolbar, and interactive controls
@@ -44,3 +54,8 @@ You can easily customize the app:
 ---
 
 Enjoy creating with your new Drawing App! 🖍️✨ 
+
+## 👨‍💻 Author
+Sandeep Singh Mehta
+
+Contributions and suggestions are welcome! Feel free to open issues or submit pull requests.
