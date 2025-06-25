@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.toolbar {
+  position: fixed;
+  top: 130px;
+  left: 10px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.2s;
+}
+.toolbar:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+.toolbar input,
+.toolbar button {
+  margin: 5px;
+  font-size: 14px;
+}
+
+#colorPicker {
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+#colorPicker:hover {
+  transform: scale(1.1);
+}
+
+#brushSize {
+  accent-color: #4f8cff;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.toolbar button {
+  background: linear-gradient(90deg, #4f8cff 0%, #38e8ff 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.toolbar button:hover {
+  background: linear-gradient(90deg, #38e8ff 0%, #4f8cff 100%);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 16px rgba(79,140,255,0.18);
+}
+
+canvas {
+  display: block;
+  cursor: crosshair;
+  background: transparent;
+  transition: box-shadow 0.2s;
+}
+canvas:active {
+  box-shadow: 0 0 0 4px #4f8cff33;
+}

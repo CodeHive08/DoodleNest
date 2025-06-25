@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drawing App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="display: flex; flex-direction: column; align-items: flex-start; margin: 30px 0 0 30px; z-index: 20; position: relative;">
+    <h1 style="margin: 0 0 6px 0; font-size: 2.2rem; color: #4f8cff; font-family: 'Segoe UI', sans-serif; letter-spacing: 1px;">Drawing App</h1>
+    <p style="margin: 0 0 18px 2px; color: #555; font-size: 1.1rem; font-family: 'Segoe UI', sans-serif;">Unleash your creativity! Pick a color, adjust the brush, and start drawing.</p>
+    <div class="toolbar">
+      <input type="color" id="colorPicker" value="#000000" />
+      <input type="range" id="brushSize" min="1" max="20" value="5" />
+      <button id="clearBtn">Clear</button>
+      <button id="saveBtn">Save</button>
+    </div>
+  </div>
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
